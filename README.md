@@ -1,18 +1,27 @@
-## Getting Started
+# Desafío 3 del Digit@lers Bootcamp de Java 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ 
+Los productos que gestiona el banco son:
+cuentas bancarias, fondos de inversión y
+carteras de valores.
+Las cuentas deben tener: número de cuenta,
+fecha de apertura, saldo y tipo de interés y los
+datos de sus clientes. El banco tiene dos tipos
+de cuentas: corrientes y cajas de ahorro.
+Las cuentas corrientes pueden tener tarjetas de
+crédito asociadas. Solo estas cuentas pueden
+tener el resto de los productos asociados.
+Las cajas de ahorro deben tener el número de
+meses que estarán abiertas. De los clientes se
+debe almacenar la siguiente información: DNI,
+nombre, dirección y teléfono.
+Los fondos de inversión deben tener un nombre,
+importe, rentabilidad y la fecha de apertura y
+vencimiento.
+Las carteras de valores están compuestas por
+los valores asociados, almacenando el nombre
+del valor, el número de títulos y el precio de
+cotización.
+Las tarjetas de crédito deben almacenar el tipo
+(Visa, MasterCard, etc.), el número, el titular y la
+fecha de caducidad.
