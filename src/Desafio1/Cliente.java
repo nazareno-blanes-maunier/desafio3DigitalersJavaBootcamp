@@ -1,9 +1,10 @@
+package Desafio1;
 public class Cliente {
 
-    public String nombre;
-    public String dni;
-    public String direccion;
-    public String telefono;
+    public String Nombre;
+    public String DNI;
+    public String Direccion;
+    public String Telefono;
 
     public void extraer(double cantidad) {
 
